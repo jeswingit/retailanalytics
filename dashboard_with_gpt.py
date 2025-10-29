@@ -304,6 +304,12 @@ with col_button:
 st.markdown("## 📊 Key Performance Indicators")
 st.markdown("---")
 
+# Check if there's any data after filtering
+if len(filtered_df) == 0:
+    st.error("⚠️ **No data available with current filter selections.**")
+    st.info("💡 **Tip:** Try selecting more categories, malls, or genders from the sidebar, or adjust your date range.")
+    st.stop()  # Stop execution if no data
+
 col1, col2, col3, col4, col5 = st.columns(5, gap="medium")
 
 total_revenue = filtered_df['total_amount'].sum()
