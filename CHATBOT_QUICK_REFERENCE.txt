@@ -1,0 +1,73 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║              💬 AI SALES ASSISTANT - QUICK REFERENCE                      ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+HOW TO USE:
+───────────
+1. Open dashboard (http://localhost:8501)
+2. Check "💬 Ask Questions (AI Assistant)" in left sidebar
+3. Type your question at the bottom
+4. Get instant answers!
+
+SAMPLE QUESTIONS:
+─────────────────
+
+💰 Revenue Questions:
+  • "What is my total revenue?"
+  • "How much sales did I make?"
+  • "What's the average transaction?"
+
+📊 Category Questions:
+  • "Which is the top category?"
+  • "Tell me about Clothing"
+  • "Compare all categories"
+  • "How is Technology performing?"
+
+🏬 Location Questions:
+  • "Which mall performs best?"
+  • "What's the top location?"
+
+👥 Customer Questions:
+  • "What are the customer demographics?"
+  • "What's the average age?"
+  • "Gender distribution?"
+
+💳 Payment Questions:
+  • "How do customers pay?"
+  • "Most popular payment method?"
+
+📈 Trend Questions:
+  • "What's the sales trend?"
+  • "Monthly performance?"
+
+📅 Time Questions:
+  • "Which day has most sales?"
+  • "What's the busiest day?"
+
+KEY FEATURES:
+─────────────
+✓ Natural language - ask in your own words
+✓ Filter-aware - uses your current filters
+✓ Chat history - see previous Q&A
+✓ Data-driven - all answers from real data
+✓ Instant - no waiting, immediate results
+
+PRO TIP:
+────────
+Combine filters + chatbot for powerful insights!
+
+Example:
+1. Filter: Only "Clothing" category
+2. Ask: "What is my total revenue?"
+3. Result: Revenue for Clothing only!
+
+CLEAR CHAT:
+───────────
+Click "🗑️ Clear Chat History" to start fresh
+
+FULL GUIDE:
+───────────
+See CHATBOT_GUIDE.md for detailed instructions
+
+═══════════════════════════════════════════════════════════════════════════
+

@@ -1,0 +1,94 @@
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                    🛍️  RETAIL SALES ANALYTICS DASHBOARD                      ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+┌─────────────────┐  ┌────────────────────────────────────────────────────────┐
+│   SIDEBAR       │  │                   MAIN DASHBOARD                       │
+│   🔍 FILTERS    │  │                                                        │
+│                 │  │  ┌──────────────────────────────────────────────────┐ │
+│ ○ Date Range    │  │  │         📊 KEY PERFORMANCE INDICATORS            │ │
+│ ○ Categories    │  │  ├──────┬──────┬──────┬──────┬──────────────────────┤ │
+│ ○ Shopping Mall │  │  │ 💰   │ 📊   │ 📈   │ 👥   │ 🛒                   │ │
+│ ○ Gender        │  │  │Total │Trans │ Avg  │Unique│ Avg Items            │ │
+│                 │  │  │Rev   │Count │Trans │Cust  │ /Trans               │ │
+│                 │  │  └──────┴──────┴──────┴──────┴──────────────────────┘ │
+│                 │  │                                                        │
+│                 │  │  ┌────────────────────────┐  ┌─────────────────────┐ │
+│                 │  │  │  📈 Sales Trend        │  │ 🏷️  Sales by       │ │
+│                 │  │  │     Over Time          │  │     Category        │ │
+│                 │  │  │  ╱╲   ╱╲               │  │  ▮▮▮▮▮▮▮▮▮          │ │
+│                 │  │  │ ╱  ╲ ╱  ╲              │  │  ▮▮▮▮▮▮▮            │ │
+│                 │  │  │╱    ╲    ╲             │  │  ▮▮▮▮▮              │ │
+│                 │  │  └────────────────────────┘  └─────────────────────┘ │
+│                 │  │                                                        │
+│                 │  │  ┌────────────────────────┐  ┌─────────────────────┐ │
+│                 │  │  │  🏬 Performance by     │  │ 💳 Payment Method   │ │
+│                 │  │  │     Shopping Mall      │  │    Distribution     │ │
+│                 │  │  │  Mall A ▮▮▮▮▮▮▮▮▮▮▮   │  │       ╱─╲           │ │
+│                 │  │  │  Mall B ▮▮▮▮▮▮▮▮      │  │      ╱   ╲          │ │
+│                 │  │  │  Mall C ▮▮▮▮▮         │  │     │     │          │ │
+│                 │  │  └────────────────────────┘  └─────────────────────┘ │
+│                 │  │                                                        │
+│                 │  │  ┌────────────────────────┐  ┌─────────────────────┐ │
+│                 │  │  │  👥 Customer Age       │  │ 👤 Sales by Gender  │ │
+│                 │  │  │     Distribution       │  │                     │ │
+│                 │  │  │   ▮▮▮▮▮▮▮▮▮▮          │  │  Male    ▮▮▮▮▮▮▮   │ │
+│                 │  │  │   ▮▮▮▮▮▮▮▮▮▮▮▮▮       │  │  Female  ▮▮▮▮▮▮▮▮▮ │ │
+│                 │  │  │   ▮▮▮▮▮▮▮▮▮           │  │                     │ │
+│                 │  │  └────────────────────────┘  └─────────────────────┘ │
+│                 │  │                                                        │
+│                 │  │  ┌────────────────────────┐  ┌─────────────────────┐ │
+│                 │  │  │  🔥 Category vs Mall   │  │ 📅 Sales by Day     │ │
+│                 │  │  │     Heatmap            │  │    of Week          │ │
+│                 │  │  │  ▓▒▒░░░▓▓▒░            │  │  Mon ▮▮▮▮▮▮         │ │
+│                 │  │  │  ▓▓▒░░░▓▒▒░            │  │  Tue ▮▮▮▮▮▮▮        │ │
+│                 │  │  │  ▒▒▒░░░▒▒▒░            │  │  Wed ▮▮▮▮▮▮▮▮       │ │
+│                 │  │  └────────────────────────┘  └─────────────────────┘ │
+│                 │  │                                                        │
+│                 │  │  ┌──────────────────────────────────────────────────┐ │
+│                 │  │  │  📋 DETAILED TRANSACTION DATA TABLE              │ │
+│                 │  │  │  Date | Mall | Category | Qty | Price | Total   │ │
+│                 │  │  │  ────────────────────────────────────────────────│ │
+│                 │  │  │  [Scrollable table with 100 recent transactions] │ │
+│                 │  │  └──────────────────────────────────────────────────┘ │
+│                 │  │                                                        │
+│                 │  │  [ 📥 Download Filtered Data as CSV ]                 │
+│                 │  │                                                        │
+│                 │  │  ┌──────────────────────────────────────────────────┐ │
+│                 │  │  │        💡 INSIGHTS & RECOMMENDATIONS             │ │
+│                 │  │  │  Top Category | Best Mall | Most Used Payment   │ │
+│                 │  │  └──────────────────────────────────────────────────┘ │
+│                 │  │                                                        │
+└─────────────────┘  └────────────────────────────────────────────────────────┘
+
+════════════════════════════════════════════════════════════════════════════════
+
+FEATURES:
+✓ 14+ Interactive Visualizations
+✓ 4 Dynamic Filters (Date, Category, Mall, Gender)
+✓ 5 Key Performance Indicators
+✓ Real-time Data Updates
+✓ Export to CSV
+✓ Automated Insights
+✓ Hover Details
+✓ Zoom & Pan
+✓ Professional Design
+
+DATA COVERAGE:
+• 99,457 Transactions
+• 8 Product Categories
+• 10 Shopping Malls
+• 2021-2022 Time Period
+• 3 Payment Methods
+• Age Range: 18-69
+• Gender: Male/Female
+
+TECHNOLOGY:
+• Streamlit (Web Framework)
+• Plotly (Interactive Charts)
+• Pandas (Data Processing)
+• Python 3.13
+
+════════════════════════════════════════════════════════════════════════════════
+
